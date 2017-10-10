@@ -1,0 +1,29 @@
+{
+  "name": "suporte-tijuca-bot",
+  "version": "2.0.0",
+  "description": "A Telegram Bot with Node.js open Tickets in OTRS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oeduardoal/suporte-tijuca-bot.git"
+  },
+  "keywords": [
+    "BOT",
+    "TELEGRAM",
+    "NODE"
+  ],
+  "author": "Eduardo Almeida <oeduardoal@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/oeduardoal/suporte-tijuca-bot/issues"
+  },
+  "homepage": "https://github.com/oeduardoal/suporte-tijuca-bot#readme",
+  "dependencies": {
+    "node-telegram-bot-api": "^0.28.0",
+    "otrs-telegram": "0.0.2"
+  }
+}
